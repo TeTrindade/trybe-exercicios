@@ -1,0 +1,33 @@
+#yw{
+    background-color: yellow; 
+ }
+ #rd{
+     background-color: red;
+ }
+ #brown{
+     background-color: brown;
+ }
+ body{
+     background-color: black;
+     font-size: 16px;
+ }
+ #first{
+     color: white;
+ }
+ h1{
+     color: orange;
+     font-size: 65px;
+     font-family: sans-serif;
+ }
+ #list{
+     background-color: white;
+     font-size: 2em;
+ }
+ P{
+     font-weight: 600;
+     font-size: 3em;
+     font-style: italic;
+     line-height: 150px;
+     text-align: center;
+     text-decoration: underline;
+ }
