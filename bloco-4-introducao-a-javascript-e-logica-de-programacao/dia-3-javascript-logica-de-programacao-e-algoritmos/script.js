@@ -1,4 +1,5 @@
 // ===========Exercicio 1=============  \\
+console.log("===========Exercicio 1=============");
 let fatorial = 10;
 let resultado = fatorial;
 for (let i = 1; i < fatorial; i++)
@@ -7,6 +8,7 @@ for (let i = 1; i < fatorial; i++)
 }
 console.log(resultado);
 // ===========Exercicio 2=============  \\
+console.log("===========Exercicio 2=============");
 let word = 'tryber';
 
 function reverse(s){
@@ -16,6 +18,7 @@ function reverse(s){
 word = reverse(word);
 console.log(word);
 // ===========Exercicio 3=============  \\
+console.log("===========Exercicio 3=============");
 let bigword = "0";
 let smallword = "0";
 let array = ['java', 'javascript', 'python', 'html', 'css'];
@@ -32,6 +35,7 @@ let array = ['java', 'javascript', 'python', 'html', 'css'];
 }
 console.log('Maior palavra:', bigword, "Menor Palavra: ", smallword);
 // ===========Exercicio 4=============  \\
+console.log("===========Exercicio 4=============");
 MaiorPrimo = 0;
 let naoprimos = [];
 let num = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39, 
@@ -50,3 +54,20 @@ for(let i = 0; i < num.length; i++)
 }
 console.log("Maior número primo:",MaiorPrimo);
 console.log("Números não primos:",naoprimos);
+
+// Bonus
+console.log("===========Bonus============");
+let n = 5;
+let simbolo = "*";
+let linha = "";
+
+for (let i = 0; i < n; i++) {
+  linha += simbolo;
+  if(linha.length === n)
+  {
+    for (let j = 0; j < n; j++) 
+    {
+        console.log(linha);
+    };
+  }  
+};
